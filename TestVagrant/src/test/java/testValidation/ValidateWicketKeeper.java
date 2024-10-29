@@ -33,7 +33,7 @@ public class ValidateWicketKeeper {
 		// Validating the 1 wicket-Keeper Player
 		Assert.assertEquals(1, wicketKeeperPlayer);
 
-		if (wicketKeeperPlayer == 1) {
+		if (wicketKeeperPlayer =>1) {
 			System.out.println("Royal Challengers Bangalore has 1 wicket-Keeper Player");
 		} else {
 			System.out.println("Royal Challengers Bangalore has more than 1 wicket-Keeper Player");
