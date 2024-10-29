@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import junit.framework.Assert;
 
 public class ValidateWicketKeeper {
+	//TEST METHOD
 	@Test
 	public void validateWicketKeeper() throws IOException, ParseException {
 		
@@ -27,6 +28,7 @@ public class ValidateWicketKeeper {
 			JSONObject player = (JSONObject) playerArray.get(i);
 			if (player.get("role").equals("Wicket-keeper")) {
 				wicketKeeperPlayer++;
+				//comment from local FROM AYERA
 			}
 
 		}
