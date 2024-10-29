@@ -11,6 +11,7 @@ import junit.framework.Assert;
 
 public class ValidateForeignPlayers {
 //NADEMM FROM REMOTE
+	//aYERA BAG FROM REMOTE
 	@Test
 	public void valFourForeignPlayers() throws IOException, ParseException {
 
