@@ -16,7 +16,7 @@ public class ValidateForeignPlayers {
 	public void valFourForeignPlayers() throws IOException, ParseException {
 
 		int countForiegnPlayer = 0;
-		//COMMENT FROM REMOTE 
+		//COMMENT FROM REMOTE ADN SECONDTIME
 		FileReader readFile = new FileReader(".\\src\\test\\java\\jsonBody\\jsonBody.json");
 
 		JSONParser jsonParser = new JSONParser();
