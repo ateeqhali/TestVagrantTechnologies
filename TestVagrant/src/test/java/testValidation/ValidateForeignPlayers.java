@@ -32,7 +32,7 @@ public class ValidateForeignPlayers {
 		}
 		// Validating the 4 foreign player
 		Assert.assertEquals(4, countForiegnPlayer);
-
+//comment from remote
 		if (countForiegnPlayer == 4) {
 			System.out.println("Royal Challengers Bangalore has 4 foriegn player");
 		} else {
