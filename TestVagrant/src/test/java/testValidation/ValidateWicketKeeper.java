@@ -30,6 +30,7 @@ public class ValidateWicketKeeper {
 			}
 
 		}
+		//ayera wicket
 		// Validating the 1 wicket-Keeper Player
 		Assert.assertEquals(1, wicketKeeperPlayer);
 
